@@ -1,0 +1,6 @@
+{
+  "name": "Prashanth Gouda Portfolio",
+  "description": "A high-craft, cinematic personal portfolio of Prashanth Gouda, featuring interactive system architecture displays, modern visual components, and an intelligent Gemini-powered chat companion.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

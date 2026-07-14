@@ -1,0 +1,88 @@
+@import "tailwindcss";
+
+:root {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Outfit", sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+
+  --color-bg-dark: #06070A;
+  --color-surface: #101218;
+  --color-surface-elevated: #181B22;
+  --color-text-primary: #F8FAFC;
+  --color-text-secondary: #B6C2D2;
+  --color-text-muted: #7E8A9C;
+  --color-accent-gold: #C9A227;
+  --color-gold-soft: #E8D89F;
+  --color-royal-blue: #4C6FFF;
+  --color-electric-cyan: #37D6FF;
+  --color-success-green: #3DDC97;
+  --color-border-light: rgba(255, 255, 255, 0.08);
+  --color-glass-bg: rgba(255, 255, 255, 0.04);
+  --color-glow-gold: rgba(201, 162, 39, 0.18);
+}
+
+/* Custom styles for luxurious look */
+body {
+  background-color: #06070A;
+  color: #F8FAFC;
+  font-family: "Inter", sans-serif;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #06070A;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #181B22;
+  border-radius: 4px;
+  border: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #C9A227;
+}
+
+/* Premium micro-effects */
+.glass-panel {
+  background: rgba(16, 18, 24, 0.65);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.gold-glow-hover:hover {
+  box-shadow: 0 0 25px rgba(201, 162, 39, 0.15);
+  border-color: rgba(201, 162, 39, 0.3);
+}
+
+.cyan-glow-hover:hover {
+  box-shadow: 0 0 25px rgba(55, 214, 255, 0.15);
+  border-color: rgba(55, 214, 255, 0.3);
+}
+
+.royal-glow-hover:hover {
+  box-shadow: 0 0 25px rgba(76, 111, 255, 0.15);
+  border-color: rgba(76, 111, 255, 0.3);
+}
+
+/* Subtle gold text selection */
+::selection {
+  background: rgba(201, 162, 39, 0.25);
+  color: #F8FAFC;
+}
+
+/* Animated Grid Background */
+.animated-grid {
+  background-size: 50px 50px;
+  background-image: 
+    linear-gradient(to right, rgba(255, 255, 255, 0.02) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(255, 255, 255, 0.02) 1px, transparent 1px);
+}
